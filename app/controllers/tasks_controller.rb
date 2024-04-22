@@ -52,4 +52,5 @@ class TasksController < ApplicationController
     params.require(:task).permit(:title, :start_date, :end_date, :is_all_day, :memo)
   end
 
+  
   end
