@@ -11,5 +11,4 @@ class Task < ApplicationRecord
       errors.add(:end_date, "過去の日付は使えません")
     end
   end
-
 end
